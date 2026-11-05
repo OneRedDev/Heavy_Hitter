@@ -44,8 +44,8 @@
 #include <stdatomic.h> // For thread-safe counters
 
 // Configuration
-#define TARGET_IP "86.127.220.151"       // CHANGE THIS TO HIS IP!
-#define TARGET_PORT 53                // DNS Port
+#define TARGET_IP "IP"       // CHANGE THIS TO THE IP!
+#define TARGET_PORT 53               // DNS Port
 #define NUM_THREADS 30                // Your Core Count
 #define PACKET_SIZE 1472              // Max UDP Payload (Ethernet MTU)
 
