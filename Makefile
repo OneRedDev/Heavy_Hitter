@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -pthread
 TARGET = heavy_hitter
-SRC = heavy_hitter.c
+SRC = src/heavy_hitter.c
 
 all: $(TARGET)
 
