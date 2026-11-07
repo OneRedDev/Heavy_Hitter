@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -pthread
-TARGET = udp_flood
+TARGET = heavy_hitter
 SRC = heavy_hitter.c
 
 all: $(TARGET)
