@@ -7,3 +7,5 @@ A multithreaded UDP flood tool designed to saturate network devices.
 ## How to Use
 To use, install a C compiler for your platform (e.g., `gcc` on Linux/WSL via `sudo apt install gcc`,
 MinGW on Windows, or `pkg install gcc` in Termux on Android), then compile with `gcc -o udp_flood udp_flood.c -lpthread` and execute the resulting binary (`./udp_flood` or `udp_flood.exe`) to begin the attack.
+
+# ⚠️ GIST GITHUB VERSION IS NO LONGER RECEIVING UPDATES, WILL BE REMOVED ON JANUARY 27 2027!
