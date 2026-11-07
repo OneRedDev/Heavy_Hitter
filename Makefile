@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -pthread
 TARGET = udp_flood
-SRC = heavy_hitter-v1.0.c
+SRC = heavy_hitter.c
 
 all: $(TARGET)
 
