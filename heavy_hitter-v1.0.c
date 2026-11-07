@@ -1,34 +1,3 @@
-// VERSION 1.0
-// This tool's name is "Heavy Hitter"
-// Change code for example: Change port on how you want (80,53,445 etc)
-// Here is the Compile & Run guide. It covers Linux, Windows (WSL/GCC), and Android (Termux).
-
-// 🛠️ How to Compile & Run "Heavy Hitter"
-// 1. Linux / Ubuntu / Debian
-
-// Open your terminal and run:
-// Install GCC if you don't have it
-// sudo apt install gcc
-// Compile the code:
-// gcc -o udp_flood udp_flood.c -lpthread
-// Run the attack
-// ./udp_flood
-// 2. Windows (Using WSL or Git Bash)
-// You need a C compiler. The easiest way is using WSL (Windows Subsystem for Linux) or MinGW.
-// If using WSL: Just follow the Linux steps above // inside your WSL terminal.
-// If using MinGW (Native Windows):
-// open cmd
-// gcc -o udp_flood.exe udp_flood.c -lpthread
-// udp_flood.exe
-
-// 3. Android (Termux)
-// Open Termux and run:
-// pkg install gcc
-// gcc -o udp_flood udp_flood.c -lpthread
-// ./udp_flood
-
-// ⚠️ Note: Make sure you edit the TARGET_IP in the code before compiling! //
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
